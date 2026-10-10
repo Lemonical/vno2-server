@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="TUnit" PrivateAssets="all" />
+    <ProjectReference Include="../../src/VNO2.Server/VNO2.Server.csproj" />
+  </ItemGroup>
+</Project>

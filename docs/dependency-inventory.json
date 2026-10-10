@@ -1,0 +1,384 @@
+{
+  "scope": "Current resolved NuGet graph; see lock files for exact framework resolution",
+  "packages": [
+    {
+      "id": "EnumerableAsyncProcessor",
+      "version": "3.8.4",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/thomhurst/EnumerableAsyncProcessor",
+        "branch": "refs/heads/main",
+        "commit": "6b88a3904935c20b15b51ef758ead022b67383a4"
+      },
+      "packageUrl": "https://www.nuget.org/packages/EnumerableAsyncProcessor/3.8.4",
+      "contentHash": "KlbpupRCz3Kf+P7gsiDvFXJ980i/9lfihMZFmmxIk0Gf6mopEjy74OTJZmdaKDQpE29eQDBnMZB5khyW3eugrg=="
+    },
+    {
+      "id": "Microsoft.ApplicationInsights",
+      "version": "2.23.0",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "Git",
+        "url": "https://github.com/Microsoft/ApplicationInsights-dotnet",
+        "commit": "2faa7e8b157a431daa2e71785d68abd5fa817b53"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.ApplicationInsights/2.23.0",
+      "contentHash": "nWArUZTdU7iqZLycLKWe0TDms48KKGE6pONH2terYNa8REXiqixrMOkf1sk5DHGMaUTqONU2YkS4SAXBhLStgw=="
+    },
+    {
+      "id": "Microsoft.Data.Sqlite",
+      "version": "10.0.12",
+      "usedBy": [
+        "src/VNO2.Server/packages.lock.json:net10.0",
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Data.Sqlite/10.0.12",
+      "contentHash": "xUq9xUc653ue7ac2rMfCaf8UQN+U3zS8poWYlugycpvJllplMM0Mk7v/+MM0CTlu9zGvbGML4BPH8YWhrUOfGw=="
+    },
+    {
+      "id": "Microsoft.Data.Sqlite.Core",
+      "version": "10.0.12",
+      "usedBy": [
+        "src/VNO2.Server/packages.lock.json:net10.0",
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Data.Sqlite.Core/10.0.12",
+      "contentHash": "2aL9eL5HQr0V4b8V909SD+jQAx6qnTTl7sT/v3D8dIvmr2UGdpZIQxqm1pj2Js3e4EYTvpw0oMH7DjapJJuPPw=="
+    },
+    {
+      "id": "Microsoft.DiaSymReader",
+      "version": "2.2.3",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "c2435c3e0f46de784341ac3ed62863ce77e117b4"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.DiaSymReader/2.2.3",
+      "contentHash": "bhwzJfzyiJM0nXJyNB7Y9OfsEXyxLdDBHG99soIp5JjnPydwkOaBdRCtRtWgQh3noSLi2cSIZ/wpbHNNE9knxQ=="
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyModel",
+      "version": "8.0.2",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dotnet/runtime",
+        "commit": "81cabf2857a01351e5ab578947c7403a5b128ad1"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Extensions.DependencyModel/8.0.2",
+      "contentHash": "mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw=="
+    },
+    {
+      "id": "Microsoft.Testing.Extensions.CodeCoverage",
+      "version": "18.8.0",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "file",
+        "value": "License.txt"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/microsoft/codecoverage",
+        "commit": "b3b276016e7a6850f5636374a8385bfe45dcff6a"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Testing.Extensions.CodeCoverage/18.8.0",
+      "contentHash": "euA4tpkGAkfHznVQrPzXFLNaUhcRCIKPkDmJJB+A2XU9d5ymHLhQ2Do0fGc/Z2y+VFUaNnM6vHhIrb4FW+qhtg=="
+    },
+    {
+      "id": "Microsoft.Testing.Extensions.Telemetry",
+      "version": "2.2.3",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/microsoft/testfx",
+        "commit": "35d2383f858eccdf89702de06c60ab830944f55e"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Testing.Extensions.Telemetry/2.2.3",
+      "contentHash": "mLdW+JOR3kXYGTdgR/qc/UZBA0r+eCR2k6bUxTcuDj5w9WdIQ7Lol5MBUU7YOSGd9bs9bvhSYWAptgz0YtQqCA=="
+    },
+    {
+      "id": "Microsoft.Testing.Extensions.TrxReport",
+      "version": "2.2.3",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/microsoft/testfx",
+        "commit": "35d2383f858eccdf89702de06c60ab830944f55e"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Testing.Extensions.TrxReport/2.2.3",
+      "contentHash": "9Hot3ty5ZVWHrW40k2NPfD0dCaPwIxj7j7VjujNYwpYkYw9AdbejPHjGNkL/gvUWorauJf5IkeDoUeIbS7LuUg=="
+    },
+    {
+      "id": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+      "version": "2.2.3",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/microsoft/testfx",
+        "commit": "35d2383f858eccdf89702de06c60ab830944f55e"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Testing.Extensions.TrxReport.Abstractions/2.2.3",
+      "contentHash": "hntvxJEkmUAx6C2xXc/PO38DqEQl4rimzOgSvTR1hAMruMid7R4RcXOrzzF33J66gKaN7jRaQ0TMW/nNfaV9jw=="
+    },
+    {
+      "id": "Microsoft.Testing.Platform",
+      "version": "2.2.3",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/microsoft/testfx",
+        "commit": "35d2383f858eccdf89702de06c60ab830944f55e"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Testing.Platform/2.2.3",
+      "contentHash": "LhM1/Qoi8Ams5QcD4r3f09CSOono9iQr3NEJQItFtyzWB55nWTgEOsVqXqMWWWIwk3nkPqc+XfnlJmp8xUI5fg=="
+    },
+    {
+      "id": "Microsoft.Testing.Platform.MSBuild",
+      "version": "2.2.3",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/microsoft/testfx",
+        "commit": "35d2383f858eccdf89702de06c60ab830944f55e"
+      },
+      "packageUrl": "https://www.nuget.org/packages/Microsoft.Testing.Platform.MSBuild/2.2.3",
+      "contentHash": "Q22jJYJLx4srTinsAuoCskqmzjrBJC8YeGJMHHIcrf1dQeHoEZ7wsqDzTlENkMoke2qfufF7U+9u58nlZunH/Q=="
+    },
+    {
+      "id": "SQLitePCLRaw.bundle_e_sqlite3",
+      "version": "2.1.12",
+      "usedBy": [
+        "src/VNO2.Server/packages.lock.json:net10.0",
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "Apache-2.0"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "packageUrl": "https://www.nuget.org/packages/SQLitePCLRaw.bundle_e_sqlite3/2.1.12",
+      "contentHash": "mAgscpQMLw5/nfA1Q5oJVAT29yROUo1ifZGbbTpx/lwZpSxMUGoYbKfmvdm8oXER+RzxqBmmQzeBEVKfeHv2nw=="
+    },
+    {
+      "id": "SQLitePCLRaw.core",
+      "version": "2.1.12",
+      "usedBy": [
+        "src/VNO2.Server/packages.lock.json:net10.0",
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "Apache-2.0"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "packageUrl": "https://www.nuget.org/packages/SQLitePCLRaw.core/2.1.12",
+      "contentHash": "ETpNw9DY3ckWLgRRAeCHj+GKOuPi61aeczkXhgHexUvqoZBAYg8RYESE2J7O1M7+o6QbdSEZwrw9bfqztUVWXg=="
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.12",
+      "usedBy": [
+        "src/VNO2.Server/packages.lock.json:net10.0",
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "Apache-2.0"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "packageUrl": "https://www.nuget.org/packages/SQLitePCLRaw.lib.e_sqlite3/2.1.12",
+      "contentHash": "fWi8Dbknuhgg72fWinIdjXVaqO1hHL4YBBwVLnr7e1c9TAZwJ0QE38j9syW1hwx6HaqEVTwI+O07WPdZn8Rp0w=="
+    },
+    {
+      "id": "SQLitePCLRaw.provider.e_sqlite3",
+      "version": "2.1.12",
+      "usedBy": [
+        "src/VNO2.Server/packages.lock.json:net10.0",
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "Apache-2.0"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "packageUrl": "https://www.nuget.org/packages/SQLitePCLRaw.provider.e_sqlite3/2.1.12",
+      "contentHash": "W3oH4XIfCzFrgUSDKHhN6N+dgzA5YHOR2VxX8GB6Qy7CyrJJgxPEG8NirgYWlPQC5P2jz2knSsexWu4tDUL33g=="
+    },
+    {
+      "id": "TUnit",
+      "version": "1.57.17",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/thomhurst/TUnit",
+        "branch": "refs/heads/main",
+        "commit": "97cd8c951e0f93476365a13e1debfd9e699e7c77"
+      },
+      "packageUrl": "https://www.nuget.org/packages/TUnit/1.57.17",
+      "contentHash": "eo6q8NWvSoKrsrHNzM2X4CaRo6jKBCsvF4goI1bKPP3fTHNNg6Wn4uT9c2jcmVMBTms/cemA6WCRccFGFw3n4w=="
+    },
+    {
+      "id": "TUnit.Assertions",
+      "version": "1.57.17",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/thomhurst/TUnit",
+        "branch": "refs/heads/main",
+        "commit": "97cd8c951e0f93476365a13e1debfd9e699e7c77"
+      },
+      "packageUrl": "https://www.nuget.org/packages/TUnit.Assertions/1.57.17",
+      "contentHash": "/+hK0DuW03CWzbTAZeXIziqiNydHvMznndSjGNJmJDuSQq+E8uO1POsdv8WluWyp0/NUNLwcTP8+rYIuAZppVw=="
+    },
+    {
+      "id": "TUnit.Core",
+      "version": "1.57.17",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/thomhurst/TUnit",
+        "branch": "refs/heads/main",
+        "commit": "97cd8c951e0f93476365a13e1debfd9e699e7c77"
+      },
+      "packageUrl": "https://www.nuget.org/packages/TUnit.Core/1.57.17",
+      "contentHash": "u/hFv58mijmILr3sZhs794a4YyeSl/KyAhxdSo7jJhuabNoRgjaUb+YftAHiFME/l6CLPchb/Gm9sR1zIFUe5g=="
+    },
+    {
+      "id": "TUnit.Engine",
+      "version": "1.57.17",
+      "usedBy": [
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": {
+        "type": "expression",
+        "value": "MIT"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/thomhurst/TUnit",
+        "branch": "refs/heads/main",
+        "commit": "97cd8c951e0f93476365a13e1debfd9e699e7c77"
+      },
+      "packageUrl": "https://www.nuget.org/packages/TUnit.Engine/1.57.17",
+      "contentHash": "RgP9X+t2cgeNncT5v2EY+WiGA9cBJsYu4I1AwAu4mBwS2j7tpCSqdum9ker9QgmthA/4pbw/HLurPNvmJ0Sx2w=="
+    },
+    {
+      "id": "VNO2.Shared",
+      "version": "0.1.0",
+      "usedBy": [
+        "src/VNO2.Server/packages.lock.json:net10.0",
+        "tests/VNO2.Server.Tests/packages.lock.json:net10.0"
+      ],
+      "license": null,
+      "source": null,
+      "packageUrl": null,
+      "contentHash": "oLg/ZDKGCD6Q8isEMVyw2v+gZxYZyvEjoT3fuO+HcKcIgoIiTj6Sgcnoki2QQ2ruazLrPYMseoGm3HF+d5P9Yw=="
+    }
+  ]
+}

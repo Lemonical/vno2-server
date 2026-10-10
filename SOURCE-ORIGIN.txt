@@ -1,0 +1,21 @@
+VNO2 source origin
+==================
+
+Imported from the user-supplied VNO2.zip on 2026-10-01.
+Original archive size: 519,579,078 bytes
+Original archive SHA-256:
+b4b9b6513354da396ff59d9197d66ccac8b40d6c0fac719f12545c9c367be71a
+
+The archive contained no Git history. Local history starts with a fresh source
+snapshot import. No previous author, branch, or commit history is reconstructed
+or implied. The original ZIP is preserved separately in the working environment.
+
+The import retains 73 source, lock, instruction, documentation, and upstream
+license files. It deliberately excludes archived build outputs, caches, old test
+results, and generated binaries. Subsequent commits record this implementation.
+No remote repository has been configured and no source has been pushed.
+
+Separated on 2026-10-25 from VNO2 monorepo commit
+bdf4c92509d371db30b23754511f75b98ff3ae7c.
+This repository begins with one separation snapshot. Earlier monorepo history
+remains in the original workspace; unrelated application history is not copied.

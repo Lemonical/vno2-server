@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "TUnit-MIT.txt",
+    "Url": "https://raw.githubusercontent.com/thomhurst/TUnit/97cd8c951e0f93476365a13e1debfd9e699e7c77/LICENSE"
+  },
+  {
+    "Name": "Microsoft-TestFX-MIT.txt",
+    "Url": "https://raw.githubusercontent.com/microsoft/testfx/35d2383f858eccdf89702de06c60ab830944f55e/LICENSE"
+  },
+  {
+    "Name": "Microsoft-ApplicationInsights-MIT.txt",
+    "Url": "https://raw.githubusercontent.com/microsoft/ApplicationInsights-dotnet/2faa7e8b157a431daa2e71785d68abd5fa817b53/LICENSE"
+  },
+  {
+    "Name": "Microsoft-DotNet-MIT.txt",
+    "Url": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/8.0.2/microsoft.extensions.dependencymodel.8.0.2.nupkg",
+    "PackageEntry": "LICENSE.TXT",
+    "Sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "Name": "Microsoft-CodeCoverage-LICENSE.txt",
+    "Url": "https://api.nuget.org/v3-flatcontainer/microsoft.testing.extensions.codecoverage/18.8.0/microsoft.testing.extensions.codecoverage.18.8.0.nupkg",
+    "PackageEntry": "License.txt",
+    "Sha256": "b2a6b8b349a2b87d5b05ed687c4618f46052b90090352354b11bacb24f9bcb72"
+  },
+  {
+    "Name": "Microsoft-CodeCoverage-THIRD-PARTY-NOTICES.txt",
+    "Url": "https://api.nuget.org/v3-flatcontainer/microsoft.testing.extensions.codecoverage/18.8.0/microsoft.testing.extensions.codecoverage.18.8.0.nupkg",
+    "PackageEntry": "ThirdPartyNotices.txt",
+    "Sha256": "8f1325bd5a29775fa36804bf1d07f4155cde1a4ecd1fbb2f944b8ae8dea0add8"
+  },
+  {
+    "Name": "Microsoft-DotNet-THIRD-PARTY-NOTICES.txt",
+    "Url": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/8.0.2/microsoft.extensions.dependencymodel.8.0.2.nupkg",
+    "PackageEntry": "THIRD-PARTY-NOTICES.TXT",
+    "Sha256": "b60b2912da28eaa6518593c9e2efb5334ee062d3c42e80d8fdfa806b3dc52977"
+  },
+  {
+    "Name": "EnumerableAsyncProcessor-MIT.txt",
+    "Url": "https://raw.githubusercontent.com/thomhurst/EnumerableAsyncProcessor/6b88a3904935c20b15b51ef758ead022b67383a4/LICENSE"
+  },
+  {
+    "Name": "SQLitePCLRaw-APACHE.txt",
+    "Url": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.12/LICENSE.TXT"
+  }
+]

@@ -1,0 +1,39 @@
+name: Build vno2-server
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  packages: read
+env:
+  VNO2_SHARED_FEED: https://nuget.pkg.github.com/${{ vars.VNO2_PACKAGE_OWNER || github.repository_owner }}/index.json
+  NuGetPackageSourceCredentials_vno2: Username=${{ github.actor }};Password=${{ secrets.GITHUB_TOKEN }};ValidAuthenticationTypes=Basic
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          global-json-file: global.json
+      - run: dotnet restore VNO2.slnx --locked-mode --configfile NuGet.Config
+      - run: dotnet build VNO2.slnx -c Release --no-restore
+      - run: dotnet test --solution VNO2.slnx -c Release --no-build
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r tools/requirements.txt
+      - run: python tools/community-smoke.py --self-host
+      - run: dotnet format VNO2.slnx --verify-no-changes --no-restore
+      - run: dotnet publish src/VNO2.Server -c Release -r linux-x64 --self-contained true -p:Vno2Publish=true -o artifacts/publish/linux-x64
+      - name: Build the container without publishing
+        run: docker build -f deployment/Dockerfile -t vno2-server:ci --build-arg VNO2_SHARED_FEED --secret id=vno2_nuget_credentials,env=NuGetPackageSourceCredentials_vno2 .
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: unsigned-server-linux-x64
+          path: |
+            artifacts/publish/
+            !artifacts/publish/**/*.pdb
+          if-no-files-found: error
+          retention-days: 14

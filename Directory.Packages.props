@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.Data.Sqlite" Version="10.0.12" />
+    <PackageVersion Include="TUnit" Version="1.57.17" />
+    <PackageVersion Include="VNO2.Shared" Version="[0.1.0]" />
+  </ItemGroup>
+</Project>

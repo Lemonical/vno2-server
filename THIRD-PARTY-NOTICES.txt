@@ -1,0 +1,33 @@
+Third-party notices for vno2-server
+====================================
+
+VNO2's source license has not been selected. Exact dependencies are recorded in
+committed NuGet lock files and docs/dependency-inventory.json.
+
+Production dependencies:
+- Microsoft.Data.Sqlite 10.0.12: MIT; Microsoft; SQLitePCLRaw 2.1.12: Apache-2.0
+  https://github.com/dotnet/efcore and https://github.com/ericsink/SQLitePCL.raw
+  SQLite itself is dedicated to the public domain: https://sqlite.org/copyright.html
+
+VNO2.Shared is a first-party private contract package; its source license is also unselected.
+
+Test-only dependencies:
+- TUnit 1.57.17 and its assertions/core/engine packages: MIT
+  https://github.com/thomhurst/TUnit
+- EnumerableAsyncProcessor 3.8.4: MIT
+  https://github.com/thomhurst/EnumerableAsyncProcessor
+- Microsoft.Testing.Platform and reporting/telemetry extensions 2.2.3: MIT
+  https://github.com/microsoft/testfx
+- Microsoft.Testing.Extensions.CodeCoverage 18.8.0: Microsoft license terms
+  https://github.com/microsoft/codecoverage
+- Microsoft.ApplicationInsights 2.23.0: MIT
+  https://github.com/microsoft/ApplicationInsights-dotnet
+- Microsoft.DiaSymReader 2.2.3: MIT
+  https://github.com/dotnet/symreader
+- Microsoft.Extensions.DependencyModel 8.0.2: MIT
+  https://github.com/dotnet/runtime
+
+Upstream license and notice texts under licenses/ are preserved verbatim and
+copied into application outputs. Framework-dependent builds do not bundle .NET;
+self-contained distributions must retain the runtime license and notices too.
+No Spine or Live2D runtime or community-supplied art is included.

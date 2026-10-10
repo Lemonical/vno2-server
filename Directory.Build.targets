@@ -1,0 +1,13 @@
+<Project>
+  <ItemGroup Condition="'$(IncludeThirdPartyNotices)' == 'true'">
+    <None Include="$(MSBuildThisFileDirectory)THIRD-PARTY-NOTICES.txt"
+          Condition="Exists('$(MSBuildThisFileDirectory)THIRD-PARTY-NOTICES.txt')"
+          Link="THIRD-PARTY-NOTICES.txt"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest" />
+    <None Include="$(MSBuildThisFileDirectory)licenses/**/*.txt"
+          Link="licenses/%(RecursiveDir)%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

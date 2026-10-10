@@ -1,0 +1,17 @@
+.git
+**/bin
+**/obj
+artifacts/**
+!artifacts/packages/
+!artifacts/packages/*.nupkg
+TestResults
+**/data
+**/*.db
+**/*.db-shm
+**/*.db-wal
+.env
+.env.*
+*.zip
+.agents
+.codex
+.aws
